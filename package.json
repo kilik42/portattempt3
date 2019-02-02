@@ -1,0 +1,17 @@
+{
+  "name": "portfoliosite",
+  "version": "1.0.0",
+  "description": "responsive portfolio",
+  "main": "index.js",
+  "homepage": "https://github.com/kilik42/modern_portfolio2",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "marvin evins",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^2.0.1",
+    "node-sass": "^4.9.2"
+  }
+}
